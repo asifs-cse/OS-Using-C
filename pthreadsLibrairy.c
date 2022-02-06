@@ -9,7 +9,7 @@ void *mythread1(void *vargp)
       for(i=1;i<=10;i++)
      printf("i=%d\n",i);   
    printf("exit from thread1\n");
-  return NULL;
+  return NULL;  //return null
 }
 
 void *mythread2(void *vargp)
