@@ -27,7 +27,7 @@ int main()
 {
   pthread_t tid;
   printf("before thread\n");
-  pthread_create(&tid,NULL,mythread2,NULL);
+  pthread_create(&tid,NULL,mythread2,NULL); //call thread
   pthread_join(tid,NULL);
   pthread_create(&tid,NULL,mythread1,NULL);
   pthread_join(tid,NULL);
