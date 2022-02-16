@@ -8,7 +8,7 @@ void *mythread1(void *vargp)
    printf("thread1\n");
       for(i=1;i<=10;i++)
      printf("i=%d\n",i);   
-   printf("exit from thread1\n");
+   printf("exit from thread1\n"); //
   return NULL;  //return null
 }
 
