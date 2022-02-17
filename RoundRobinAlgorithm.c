@@ -13,8 +13,8 @@ void main(){
         rem_bt[i]=bt[i];
     }
     printf("Enter quantam time: ");
-    scanf("%d",&qt);
-
+    scanf("%d",&qt); //scan quantam time
+    
     while (1)
     {
         for (i = 0, count=0; i < n; i++)
