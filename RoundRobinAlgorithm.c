@@ -23,7 +23,7 @@ void main(){
             if (rem_bt[i]==0)
             {
                 count++;
-                continue;
+                continue; //continue
             }
             if (rem_bt[i]>qt)
             {
