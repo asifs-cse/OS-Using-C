@@ -9,7 +9,7 @@ void main(){
     printf("Enter burst time of process: ");
     for (i = 0; i < n; i++)
     {
-        scanf("%d",&bt[i]);
+        scanf("%d",&bt[i]); //input burst time
         rem_bt[i]=bt[i];
     }
     printf("Enter quantam time: ");
