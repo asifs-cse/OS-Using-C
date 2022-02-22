@@ -30,7 +30,7 @@ void main(){
                 rem_bt[i]=rem_bt[i]-qt;
             }else
                 if(rem_bt[i]>=0){
-                    temp= rem_bt[i];
+                    temp= rem_bt[i];//swaping
                     rem_bt[i]=0;
                 }
                 sq=sq+temp;
