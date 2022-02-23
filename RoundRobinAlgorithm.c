@@ -52,6 +52,6 @@ void main(){
     awt=awt/n;
     atat=atat/n;
     printf("\nAverage waitting time =%f\n", awt);
-    printf("Average trunaroun time =%f",atat);
+    printf("Average trunaroun time =%f",atat); //print average turnaround time
     getch();
 }
